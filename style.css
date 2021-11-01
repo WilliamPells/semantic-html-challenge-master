@@ -1,0 +1,82 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", "Rock Salt", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #800080;
+  font-family: "Rock Salt";
+  text-align: right;
+  font-size: 15px;
+}
+
+table.CustomTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+table.CustomTable td, table.CustomTable th {
+  border-width: 2px;
+  border-color: #800080!important;
+  border-style: solid;
+  padding: 10px;
+}
+
+.thead, tr{
+  color: #ffffff;
+}
+
+.no-border{
+  border: 0px!important;
+  color: #000000;
+  width: 150px;
+}
+
+.no-border-L{
+  border-left: 0px!important;
+  border-top: 0px!important;
+  border-bottom: 0px!important;
+  color: #000000;
+  width: 500px;
+}
+
+.no-border-R{
+  border-right: 0px!important;
+  border-top: 0px!important;
+  border-bottom: 0px!important;
+  color: #000000;
+  width: 500px;
+}
+
+.print{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("assets/leopardskin.jpg")!important;
+  font-family: "Rock Salt";
+}
+
+tr:nth-child(even) {
+  background: #e495e4;
+  background-image: url("assets/noise.png");
+}
+
+tr:nth-child(odd) {
+  background: #ff33cc;
+  background-image: url("assets/noise.png");
+}
+
+.TL{
+  text-align: left!important;
+}
+
+.TR{
+  text-align: right!important;
+}
+
+tbody{
+  font-family: "Helvetica Neue";
+}
